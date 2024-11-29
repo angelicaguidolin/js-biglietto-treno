@@ -22,7 +22,7 @@ if(ageUser < 18){
     const disc= priceTot * 0.40
     priceTot= priceTot - disc 
 }
-alert()
+alert(`il prezzo del tuo biglietto e di: ${priceTot.toFixed(2)}€`)
    
 
 
